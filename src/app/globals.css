@@ -1,0 +1,99 @@
+:root {
+    --font-geist-sans: "Geist", sans-serif;
+    --font-geist-mono: "Geist Mono", monospace;
+  }
+  
+  body {
+    font-family: var(--font-geist-sans);
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--font-geist-sans);
+  }
+  
+  p, label, input, textarea, button {
+    font-family: var(--font-geist-sans);
+  }
+  
+  .event-form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .event-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .event-form input,
+  .event-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--font-geist-sans);
+  }
+  
+  .event-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .invitation-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .invitation-card button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .invitation-card .accept-btn {
+    background-color: #16a34a;
+    color: white;
+  }
+  
+  .invitation-card .accept-btn:hover {
+    background-color: #15803d;
+  }
+  
+  .invitation-card .reject-btn {
+    background-color: #dc2626;
+    color: white;
+  }
+  
+  .invitation-card .reject-btn:hover {
+    background-color: #b91c1c;
+  }
+  
+  .message {
+    margin-top: 1rem;
+    color: #16a34a;
+  }
